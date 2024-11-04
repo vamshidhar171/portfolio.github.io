@@ -4,7 +4,7 @@ document.getElementById("DownloadCV").addEventListener("click", function () {
 
   const link = document.createElement("a");
   link.href = fileurl;
-  link.download = "Vamshidhar_Resume.pdf";
+  link.download = "Vamshidhar-Resume.docx";
 
   document.body.appendChild(link);
   link.click();
